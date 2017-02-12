@@ -2,10 +2,15 @@
 //
 
 #include "stdafx.h"
-
+#include "common.h"
+#include <string>
+#include <iostream>
 
 int main(int agrc, char * argv[])
 {
-    return 0;
+	string test = "ABCDEFGXYZ";
+	LowerCase(test);
+	cout << test << endl;
+    return SUCCESS;
 }
 

@@ -25,4 +25,5 @@ enum ProgramStatus
 	WRONG_ARGUMENTS_NUMBER
 };
 
-int UsageMessage(char * program_name);
+int UsageMessage(char * program_name,char * promote);
+void LowerCase(string &temp);
