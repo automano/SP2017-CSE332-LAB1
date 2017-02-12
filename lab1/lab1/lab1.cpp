@@ -1,4 +1,6 @@
-// lab1.cpp : Defines the entry point for the console application.
+// lab1.cpp
+// Author: Zhening Li E-mail: zhening.li@wustl.edu
+// Purpose: Defines the entry point for the console application.
 //
 
 #include "stdafx.h"
@@ -8,9 +10,6 @@
 
 int main(int agrc, char * argv[])
 {
-	string test = "ABCDEFGXYZ";
-	LowerCase(test);
-	cout << test << endl;
     return SUCCESS;
 }
 
