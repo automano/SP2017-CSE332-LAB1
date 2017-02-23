@@ -1,10 +1,10 @@
 // gamepieces.h
 // Author: Zhening Li E-mail: zhening.li@wustl.edu
 // Purpose: Declare an enumerated type(for example, named piece_color) for the colors of game pieces.
-//
+//			Declare functions
+
 #pragma once
-#include <string>
-using namespace std;
+#include "common.h"
 
 enum PieceColor
 {
@@ -13,6 +13,14 @@ enum PieceColor
 	RED,
 	BLACK,
 	WHITE
+};
+
+//struct declaration (in gamepieces.h)
+struct GamePieces
+{
+	PieceColor piece_color; 
+	string piece_name; 
+	string piece_display;
 };
 
 string EnumToString(PieceColor color);

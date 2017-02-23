@@ -4,12 +4,19 @@
 //
 
 #include "stdafx.h"
-#include "common.h"
-#include <string>
-#include <iostream>
+
+#include <iostream> 
+#include <fstream>  
+#include <string>    
+#include <vector>	
+#include <sstream>	 
+
+using namespace std;
+
+#include "lab1.h"
 
 int main(int agrc, char * argv[])
 {
-    return SUCCESS;
+	return SUCCESS;
 }
 

@@ -6,10 +6,6 @@
 //          Declare functions 
 #pragma once
 
-#include <vector>
-#include <string>
-using namespace std;
-
 enum ArrayIndices
 {
 	PROGRAM_NAME,
@@ -22,8 +18,10 @@ enum ProgramStatus
 	SUCCESS,
 	OPEN_FILE_FAILED,
 	UNABLE_TO_PARSE_FILE,
-	WRONG_ARGUMENTS_NUMBER
+	WRONG_ARGUMENTS_NUMBER,
+	FAIL_TO_GETLINE,
+	FAIL_EXTRACT_DIMENSIONS
 };
 
-int UsageMessage(char * program_name,char * promote);
+int UsageMessage(char * program_name, char * promote);
 void LowerCase(string &temp);
