@@ -9,3 +9,4 @@
 
 int GetDimension(ifstream & gameboard, unsigned int & x, unsigned int & y);
 int GetGamePieces(ifstream & gameboard, vector<GamePieces> & position, unsigned int x, unsigned int y);
+int PrintGameBoard(const vector<GamePieces> & gamepiece, unsigned int index_x, unsigned int index_y);
